@@ -8,6 +8,31 @@ namespace KayneWestConversation
     {
         static void Main(string[] args)
         {
+
+
+            Console.WriteLine($"Kayne: 'Yo, Ron.'");
+
+            Console.WriteLine($"-------------");
+
+            Console.WriteLine($"Ron: 'Good Day, Mr. Kayne.'");
+
+
+            for (int i = 0; i < 5; i++)
+            {
+                KayneQuote.KayneGenQuote();
+
+                RonQuote.RonGenQuote();
+            }
+
+            Console.WriteLine($"-------------");
+
+            Console.WriteLine($"Kayne: 'Right. Sounds good, I'm the best, OUT!'");
+
+            Console.WriteLine($"-------------");
+
+            Console.WriteLine($"Ron: 'It's been great. Have one for me. Good Day.'");
+
+
             //var kanyeURL = "https://api.kanye.rest";
 
             //var kanyeClient = new HttpClient();
@@ -19,19 +44,6 @@ namespace KayneWestConversation
             //Console.WriteLine(kanyeQuote);
 
 
-            Console.WriteLine($"Kayne: Yo, Ron.");
-
-            Console.WriteLine($"-------------");
-
-            Console.WriteLine($"Ron: Good Day, Mein Kayne. ");
-
-
-            for (int i = 0; i < 5; i++)
-            {
-                KayneQuote.KayneGenQuote();
-
-                RonQuote.RonGenQuote();
-            }
 
 
             //KayneQuote.KayneGenQuote();
@@ -53,7 +65,7 @@ namespace KayneWestConversation
 
         }
 
-       
+
 
     }
 }

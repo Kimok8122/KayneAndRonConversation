@@ -17,7 +17,7 @@ namespace KayneWestConversation
             Console.WriteLine($"Ron: 'Good Day, Mr. Kayne.'");
 
 
-            for (int i = 0; i < 5; i++)
+            for (int i = 0; i < 2; i++)
             {
                 KayneQuote.KayneGenQuote();
 
